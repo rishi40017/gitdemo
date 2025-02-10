@@ -17,7 +17,7 @@ public class utils {
 		b = a / b;
 		a = a / b;
 		System.out.println("#### After Change #####" +"\na: " +a +"\nb: " +b);
-		
+		System.out.println("####### END OfF SCRIPT#######");
 		
 		
 	}
