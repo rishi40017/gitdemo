@@ -25,6 +25,10 @@ public class hooks {
 		
 		System.out.println("hooks - afterstep added after GIT clone");
 		System.out.println("adding new step from gitstuff project");
+		System.out.println("Adding new step from Gitdemo project");
 		System.out.println("Adding new second step from Gitstuff project");
+
+		
+
 	}
 }
