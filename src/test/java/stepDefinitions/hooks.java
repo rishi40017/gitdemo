@@ -2,6 +2,7 @@ package stepDefinitions;
 
 
 import io.cucumber.java.After;
+import io.cucumber.java.AfterStep;
 import io.cucumber.java.Before;
 
 public class hooks {
@@ -16,5 +17,12 @@ public class hooks {
 	public void hooksafter()
 	{ 
 		System.out.println("hooks - after");
-}
+	}
+	
+	@AfterStep()
+	public void hooksafterstep()
+	{
+		
+		System.out.println("hooks - afterstep added after GIT clone");
+	}
 }
